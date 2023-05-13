@@ -1,6 +1,6 @@
 // Количество клеток по горизонтали и вертикали
-const ROWS = 20;
-const COLUMNS = 20;
+const ROWS = 16;
+const COLUMNS = 16;
 
 const cellState = [];
 const initialState = [];
