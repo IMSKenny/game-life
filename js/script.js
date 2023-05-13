@@ -136,6 +136,14 @@ startBtn.addEventListener("click", () => {
     clearInterval(intervalId);
     intervalId = undefined;
   });
+
+//   startBtn.addEventListener("mousedown", () => {
+//     startBtn.classList.add(".button-down");
+//   });
+  
+//   pauseBtn.addEventListener("mousedown", () => {
+//     pauseBtn.classList.toggle(".button-down");
+//   });
   
   stopBtn.addEventListener("click", () => {
     clearInterval(intervalId);
