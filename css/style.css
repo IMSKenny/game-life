@@ -29,9 +29,9 @@
 }
 
 .buttons {
-  width: 354px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -84,10 +84,10 @@
     filter: blur(0px);
   }
 }
-button {
+.button {
   font-family: "Raleway", sans-serif;
   justify-content: center;
-  margin: 50px 20px;
+  margin: 10px 15px;
   background-color: transparent;
   color: #2d2d2d;
   border: none;
@@ -100,21 +100,14 @@ button {
   transition: all 1s ease-in-out;
 }
 
-button:hover {
-  background: #f0f0f0;
-  color: rgb(0, 187, 255);
-  box-shadow: 0 0 0 #cccccc, 0 0 0 #ffffff, 5px 5px 5px #cccccc inset, -5px -5px 5px #ffffff inset;
-  text-shadow: none;
-}
-
-button:active {
-  background: #f0f0f0;
-  color: rgb(0, 187, 255);
-  box-shadow: 0 0 0 #cccccc, 0 0 0 #ffffff, 5px 5px 5px #cccccc inset, -5px -5px 5px #ffffff inset;
-  text-shadow: none;
-}
-
 .button-down {
+  background: #f0f0f0;
+  color: rgb(0, 187, 255);
+  box-shadow: 0 0 0 #cccccc, 0 0 0 #ffffff, 5px 5px 5px #cccccc inset, -5px -5px 5px #ffffff inset;
+  text-shadow: none;
+}
+
+button:hover {
   background: #f0f0f0;
   color: rgb(0, 187, 255);
   box-shadow: 0 0 0 #cccccc, 0 0 0 #ffffff, 5px 5px 5px #cccccc inset, -5px -5px 5px #ffffff inset;
