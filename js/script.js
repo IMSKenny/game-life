@@ -26,6 +26,17 @@ const presetsBtn = document.getElementById("presets-btn");
 
 let intervalId; // Идентификатор интервала для обновления игрового поля
 
+window.onload = function() {
+  const elem = document.documentElement;
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
 function resetState() {
   // Удаляем все классы из всех клеток
   for (let i = 0; i < ROWS * COLUMNS; i++) {
